@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset='{{ site.encoding }}' />
+  <link rel='stylesheet' href='{{ site.baseurl }}styles/colossus.css' />
+  <title>{{ site.data.info.title }} | {{ page.title }}</title>
+</head>
+<body>
+  <header>
+    <h1><a href='{{ site.baseurl }}'>{{ site.data.info.title }}</a></h1>
+    <nav>
+      <ol>
+        {% for section in site.data.sections %}
+        <li><a href='{{ site.baseurl }}{{ section.slug }}/'>{{ section.title }}</a></li>
+        {% endfor %}
+      </ol>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <h2>{{ page.title }}</h2>
+      {{ content }}
+    </article>
+  </main>
+  <footer>
+    <nav>
+      <ol>
+        {% for section in site.data.sections %}
+        <li>
+          <a href='{{ site.baseurl }}{{ section.slug }}/'>{{ section.title }}</a>
+          <ol>
+            {% for page in section.pages %}
+            <li><a href='{{ site.baseurl }}{{ section.slug }}/{{ page.slug }}.html'>{{ page.title }}</a></li>
+            {% endfor %}
+          </ol>
+        </li>
+        {% endfor %}
+      </ol>
+    </nav>
+  </footer>
+</body>
+</html>
