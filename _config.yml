@@ -1,2 +1,5 @@
 encoding: utf-8
 markdown: redcarpet
+
+redcloth:
+  hard_breaks: false

@@ -14,36 +14,48 @@ based on http://colorschemedesigner.com/#2T31T5577vyw03yKQI4BRC5bzrRCcCkDVjzcRRk
 @import url({{ site.baseurl }}styles/reset.css);
 @import url(http://fonts.googleapis.com/css?family=Cinzel:700&subset=latin);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,700italic&subset=latin,latin-ext);
-/* @import url(http://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic&subset=latin,latin-ext); */
 
 html, body {
-  background-color: white;
-  color: {{ primary }};
+  background-color: {{ primary }};
+  color: {{ secondary_a_light }};
   font: 16pt/1.5 'Source Sans Pro', sans-serif;
 }
 
 header,
 footer {
-  background-color: {{ primary }};
-  color: {{ secondary_a_light }};
   padding: 1em;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
+  margin-bottom: .5em;
 }
 
 h1 {
   font-family: 'Cinzel', serif;
   font-size: 200%;
+}
+
+h2 {
+  font-size: 130%;
+}
+
+h3 {
+  font-size: 110%;
+}
+
+h4 {
+  font-size: 100%;
+}
+
+header > * {
   display: inline-block;
   vertical-align: middle;
+  margin-bottom: 0;
 }
 
 header nav {
-  display: inline-block;
   font-size: 120%;
-  vertical-align: middle;
   margin-left: 1em;
 }
 
@@ -81,14 +93,14 @@ footer ul {
   margin-bottom: 1em;
 }
 
-footer nav > ol > li {
+footer nav > ol > li,
+footer nav > ul > li,
+footer nav > ol > li > ol > li,
+footer nav > ol > li > ul > li,
+footer nav > ul > li > ol > li,
+footer nav > ul > li > ul > li {
   display: inline-block;
-  font-weight: bold;
   vertical-align: top;
-}
-
-footer nav > ol > li > * {
-  font-weight: normal;
 }
 
 footer nav > ol > li > * > li {
@@ -105,4 +117,27 @@ footer nav > ol > li > * > li > ol {
 footer p.copyright {
   font-size: 80%;
   max-width: 20em;
+}
+
+main {
+  background-color: white;
+  color: {{ primary }};
+  padding: 2em;
+}
+
+main p {
+  text-indent: 2em;
+  margin-bottom: .5em;
+  max-width: 30em;
+  margin: 0 auto;
+}
+
+main blockquote {
+  background-color: {{ secondary_a_light }};
+  font-style: italic;
+}
+
+main blockquote cite,
+main blockquote em {
+  font-style: normal;
 }
