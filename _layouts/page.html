@@ -30,7 +30,7 @@
           <ol>
             {% for section in site.data.sections %}
             <li>
-              <a href='{{ site.baseurl }}{{ section.slug }}/'>{{ section.title }}</a>
+              <h3><a href='{{ site.baseurl }}{{ section.slug }}/'>{{ section.title }}</a></h3>
               <ol>
                 {% for page in section.pages %}
                 <li><a href='{{ site.baseurl }}{{ section.slug }}/{{ page.slug }}.html'>{{ page.title }}</a></li>
