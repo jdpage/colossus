@@ -1,5 +1,6 @@
 ---
 title: Environment
+layout: page
 ---
 
 motive

@@ -25,16 +25,34 @@
   <footer>
     <nav>
       <ol>
-        {% for section in site.data.sections %}
         <li>
-          <a href='{{ site.baseurl }}{{ section.slug }}/'>{{ section.title }}</a>
+          Contents
           <ol>
-            {% for page in section.pages %}
-            <li><a href='{{ site.baseurl }}{{ section.slug }}/{{ page.slug }}.html'>{{ page.title }}</a></li>
+            {% for section in site.data.sections %}
+            <li>
+              <a href='{{ site.baseurl }}{{ section.slug }}/'>{{ section.title }}</a>
+              <ol>
+                {% for page in section.pages %}
+                <li><a href='{{ site.baseurl }}{{ section.slug }}/{{ page.slug }}.html'>{{ page.title }}</a></li>
+                {% endfor %}
+              </ol>
+            </li>
             {% endfor %}
           </ol>
         </li>
-        {% endfor %}
+        <li>
+          About
+          <ul>
+            <li>
+              <ul>
+                {% for author in site.data.info.authors %}
+                <li>{{ author.name }}</li>
+                {% endfor %}
+              </ul>
+              {% include copyright.html %}
+            </li>
+          </ul>
+        </li>
       </ol>
     </nav>
   </footer>
