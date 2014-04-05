@@ -18,7 +18,7 @@
   </header>
   <main>
     <article>
-      <h2>{{ page.title }}</h2>
+      <h2 id="article">{{ page.title }}</h2>
       {{ content }}
     </article>
   </main>
@@ -26,7 +26,7 @@
     <nav>
       <ol>
         <li>
-          <h2>Contents</h2>
+          <h2 id="contents">Contents</h2>
           <ol>
             {% for section in site.data.sections %}
             <li>
@@ -41,7 +41,7 @@
           </ol>
         </li>
         <li>
-          <h2>About</h2>
+          <h2 id="about">About</h2>
           <ul>
             <li>
               <ul>
