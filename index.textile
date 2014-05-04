@@ -3,13 +3,13 @@ title: Examining the Rhetoric of Team ICO's <cite>Shadow of the Colossus</cite>
 layout: page
 ---
 
-One "morning":http://en.wikipedia.org/Morning, when Gregor Samsa woke from
+One "morning":http://en.wikipedia.org/wiki/Morning, when Gregor Samsa woke from
 troubled dreams, he found himself transformed in his bed into a horrible
-"vermin":http://en.wikipedia.org/Vermin. He lay on his armour-like back, and if
-he lifted his head a little he could see his brown belly, slightly domed and
-divided by arches into stiff sections. The bedding was hardly able to cover it
-and seemed ready to slide off any moment. His many legs, pitifully thin compared
-with the size of the rest of him, waved about helplessly as he looked.
+"vermin":http://en.wikipedia.org/wiki/Vermin. He lay on his armour-like back,
+and if he lifted his head a little he could see his brown belly, slightly domed
+and divided by arches into stiff sections. The bedding was hardly able to cover
+it and seemed ready to slide off any moment. His many legs, pitifully thin
+compared with the size of the rest of him, waved about helplessly as he looked.
 
 h3(#subsection). A subsection
 

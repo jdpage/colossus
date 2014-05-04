@@ -1,29 +1,22 @@
----
----
-{% comment %}
-based on http://colorschemedesigner.com/#2T31T5577vyw03yKQI4BRC5bzrRCcCkDVjzcRRkBDCk
-{% endcomment %}
-
-{% assign primary = "#242b26" %}
-{% assign primary_light = "#9eada1" %}
-{% assign secondary_a = "#393430" %}
-{% assign secondary_a_light = "#b4aaa1" %}
-{% assign secondary_b = "#2f272b" %}
-{% assign secondary_b_light = "#b6a4ad" %}
-
-@import url({{ site.baseurl }}styles/reset.css);
+@import url(/styles/reset.css);
 @import url(http://fonts.googleapis.com/css?family=Cinzel:700&subset=latin);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,700italic&subset=latin,latin-ext);
 
 html, body {
-  background-color: {{ primary }};
-  color: {{ secondary_a_light }};
+  /* background-color: #243b36; */
+  background-color: rgb(48, 45, 40);
+  color: rgb(143, 133, 122);
   font: 16pt/1.5 'Source Sans Pro', sans-serif;
 }
 
 header,
 footer {
   padding: 1em;
+}
+
+header {
+  background-image: url('/images/header.jpg');
+  background-position: right top;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,10 +27,18 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-family: 'Cinzel', serif;
   font-size: 200%;
+  background-color: rgba(48, 45, 40, 0.85);
+  padding: 0.2em 0.4em;
+  text-align: center; /* this only takes effect when things are wrapping :D */
+}
+
+h1:hover {
+  background-color: rgba(48, 45, 40, 0.95);
 }
 
 h2 {
   font-size: 130%;
+  border-bottom: 1px solid rgb(48, 45, 40);
 }
 
 h3 {
@@ -59,32 +60,35 @@ header nav {
   margin-left: 1em;
 }
 
-a {
-  color: {{ secondary_b }};
-}
-
 header a,
 footer a {
+  color: #c8d0a0;
   text-decoration: none;
-  color: {{ secondary_b_light }};
-}
-
-header a:hover,
-footer a:hover {
-  color: {{ secondary_b }};
-  background-color: {{ secondary_b_light }};
 }
 
 cite {
   font-style: italic;
 }
 
-header nav > ol > li + li:before {
-  content: " • ";
+header nav > ol > li {
+  display: inline-block;
+  background-color: rgba(48, 45, 40, 0.85);
+  margin-top: 4px;
+  margin-right: 4px;
+  padding: 0.1em 0.2em;
 }
 
-header nav > ol > li {
-  display: inline;
+header nav > ol > li:hover {
+  background-color: rgba(48, 45, 40, 0.95);
+}
+
+footer a:hover {
+  color: rgb(48, 45, 40);
+  background-color: #c8d0a0;
+  padding: 0 3px;
+  margin: 0 -3px;
+  border-radius: 3px;
+  text-decoration: none;
 }
 
 footer ol,
@@ -100,7 +104,7 @@ footer nav > * > li > * > li {
 }
 
 footer nav > * > li > * > li > ol {
-  border-left: 1px solid {{ secondary_a_light }};
+  border-left: 1px solid #b4aaa1;
   margin-left: 1em;
   padding-left: 1em;
 }
@@ -112,12 +116,34 @@ footer nav > * > li > * > li > ol > li {
 footer p.copyright {
   font-size: 80%;
   max-width: 20em;
+  text-indent: 2em;
+}
+
+footer p.copyright a {
+  text-decoration: underline;
+}
+
+footer p.copyright a:hover {
+  text-decoration: none;
 }
 
 main {
-  background-color: white;
-  color: {{ primary }};
+  background-color: #f9fdff;
+  color: rgb(48, 45, 40);
   padding: 2em;
+}
+
+main a {
+  color: #627ca2;
+}
+
+main a:hover {
+  background-color: #627ca2;
+  color: white;
+  padding: 0 3px;
+  margin: 0 -3px;
+  border-radius: 3px;
+  text-decoration: none;
 }
 
 main p {
@@ -127,8 +153,15 @@ main p {
   margin: 0 auto;
 }
 
+main .video {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  margin-bottom: .5em;
+}
+
 main blockquote {
-  background-color: {{ secondary_a_light }};
+  background-color: rgb(201, 187, 175);
   font-style: italic;
 }
 

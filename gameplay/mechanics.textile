@@ -1,6 +1,0 @@
----
-title: Mechanics
-layout: page
----
-
-signal

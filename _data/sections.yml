@@ -1,25 +1,21 @@
-- title: Playing the Game
-  slug: gameplay
+- title: Description
+  slug: description
   pages:
-    - title: Mechanics
-      slug: mechanics
+    - title: Introduction
+      slug: introduction
+    - title: Gameplay
+      slug: gameplay
     - title: Narrative
       slug: narrative
-    - title: Environment
-      slug: environment
-    - title: Marketing
-      slug: marketing
-- title: Rhetorical Impact
-  slug: rhetoric
+- title: Analysis
+  slug: analysis
   pages:
-    - title: Signal
-      slug: signal
-    - title: Perception
-      slug: perception
+    - title: 'Signal & Perceiver'
+      slug: signal-perceiver
     - title: Motive
       slug: motive
     - title: Reality
-      slug: life
+      slug: reality
 - title: Capturing the Audience
   slug: capture
   pages:

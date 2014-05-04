@@ -1,6 +1,0 @@
----
-title: Playing the Game
-layout: page
----
-
-This section discusses the nature of the gameplay.

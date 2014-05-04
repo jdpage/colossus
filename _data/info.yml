@@ -1,9 +1,12 @@
 title: In the Colossus’ Shadow
-tagline: Analysing the rhetoric of Team ICO’s <cite>Shadow of the Colossus</cite>
+# tagline: Analysing the rhetoric of Team ICO’s <cite>Shadow of the Colossus</cite>
 authors:
   - name: Jonathan David Page
+    twitter: _jdpage
+  - name: Christopher Paul Ruocchio
+    twitter: cpruocchio
   - name: Hayden Duke Russell
-  - name: Christopher Ruocchio
+    twitter: haythelion
 
 # we will probably want to add some contact info later, such as twitter handles
 # or email addresses.

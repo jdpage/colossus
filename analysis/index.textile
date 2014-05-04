@@ -1,0 +1,6 @@
+---
+title: Rhetorical Impact
+layout: page
+---
+
+This section discusses the rhetoric of the game.

@@ -1,5 +1,6 @@
 encoding: utf-8
 markdown: redcarpet
+exclude: [ nb_extra ]
 
 redcloth:
   hard_breaks: false

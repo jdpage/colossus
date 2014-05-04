@@ -1,8 +1,21 @@
 <p class='copyright'>
-  <cite>Shadow of the Colossus</cite> &copy; 20xx by Sony or
-  whatever. Portions thereof are reproduced here for purposes of critical
-  analysis.
+  Original content &copy; 2014
+  {% for author in site.data.info.authors %}
+  <a href='https://twitter.com/{{ author.twitter }}'>{{ author.name }}</a>{% unless forloop.last %},{% else %}.{% endunless %}
+  {% endfor %}
+  All rights reserved.
 </p>
-<p class='copyright'>Original content &copy; 2014 by J.&nbsp;D.&nbsp;Page,
-  C.&nbsp;Ruocchio, and H.&nbsp;D.&nbsp;Russell. All rights reserved.
+<p class='copyright'>
+  <cite>Shadow of the Colossus</cite> &copy; 2005, 2011 by Sony Computer
+  Entertainment Inc. Portions thereof are reproduced here for purposes of
+  critical analysis.
+</p>
+<p class='copyright'>
+  Many thanks to
+  <a href='https://www.youtube.com/user/charlezzbronsonn'>
+    Sr.&nbsp;Charlez&nbsp;Bronson</a>
+  for graciously allowing us to use his playthrough videos.
+</p>
+<p class='copyright'>
+  Header image based on the photograph <a href='https://www.flickr.com/photos/nickison/7232104680'>&ldquo;Eldhraun&rdquo; &copy; 2012 Nick Ison</a>. Used under the terms of the <a href='https://creativecommons.org/licenses/by-nc-sa/2.0/'>Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic License</a>, and thus available under the terms of the same.
 </p>

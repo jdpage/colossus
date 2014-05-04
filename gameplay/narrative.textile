@@ -1,6 +1,0 @@
----
-title: Narrative
-layout: page
----
-
-perception

@@ -3,16 +3,16 @@
 <head>
   <meta charset='{{ site.encoding }}' />
   <link rel='stylesheet' href='{{ site.baseurl }}styles/colossus.css' />
-  <title>{{ site.data.info.title }} | {{ page.title }}</title>
+  <title>{{ site.data.info.title }} | {{ page.title | strip_html }}</title>
 </head>
 <body>
   <header>
     <h1><a href='{{ site.baseurl }}'>{{ site.data.info.title }}</a></h1>
     <nav>
       <ol>
-        {% for section in site.data.sections %}
-        <li><a href='{{ site.baseurl }}{{ section.slug }}/'>{{ section.title }}</a></li>
-        {% endfor %}
+        {% for section in site.data.sections %}<li
+        ><a href='{{ site.baseurl }}{{ section.slug }}/'>{{ section.title }}</a></li
+        >{% endfor %}
       </ol>
     </nav>
   </header>
@@ -41,14 +41,9 @@
           </ol>
         </li>
         <li>
-          <h2 id="about">About</h2>
+          <h2 id="about">Credits</h2>
           <ul>
             <li>
-              <ul>
-                {% for author in site.data.info.authors %}
-                <li>{{ author.name }}</li>
-                {% endfor %}
-              </ul>
               {% include copyright.html %}
             </li>
           </ul>
