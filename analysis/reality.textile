@@ -4,4 +4,8 @@ layout: video
 video: ZGldKC3vpKc
 ---
 
-As mentioned in the video, you can "read Craig Owens' article &ldquo;The quest for Shadow of the Colossus' last big secret&rdquo; on Eurogamer.net":http://www.eurogamer.net/articles/2013-05-02-the-quest-for-shadow-of-the-colossuss-last-big-secret.
+This is part six of the IGS(Intensive Game Study) on ??Shadow of the Colossus??. As mentioned in the video, you can "read Craig Owens' article &ldquo;The quest for Shadow of the Colossus' last big secret&rdquo; on Eurogamer.net":http://www.eurogamer.net/articles/2013-05-02-the-quest-for-shadow-of-the-colossuss-last-big-secret.
+
+This concludes the video portion of the project. We've also put together an "article deconstructing the game":/construction, which discusses what makes the game function as an attention-getting trap, and what another game would have to do to engage the audience in a similar way.
+
+If you're not familiar with the game, or want a recap, consider watching "parts one through three":/description. Otherwise, you could "head back to part five":/analysis/motive.html or "start the analysis over with part four":/analysis/signal-perceiver.html.

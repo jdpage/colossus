@@ -7,7 +7,7 @@ video: wVEZpj8Ti2I
 This is part one of the IGS(Intensive Game Study) on ??Shadow of the Colossus??.
 
 If you've already played the game, and don't want a recap, continue on to
-"parts four through six":/analysis.html.
+"parts four through six":/analysis.
 
 If you've never played before, or feel like
 you could use a refresher, continue on to "part two":/description/gameplay.html.
