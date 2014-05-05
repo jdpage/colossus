@@ -16,14 +16,14 @@
       slug: motive
     - title: Reality
       slug: reality
-- title: Capturing the Audience
-  slug: capture
+- title: Constructing an Attention-Getting Trap
+  slug: construction
   pages:
-    - title: Signal
-      slug: signal
-    - title: Perception
-      slug: perception
-    - title: Motive
-      slug: motive
-    - title: Reality
-      slug: reality
+    - title: Creating the Space
+      slug: '#space'
+    - title: The Player in the Space
+      slug: '#player'
+    - title: Action in the Space
+      slug: '#action'
+    - title: The Game Gestalt
+      slug: '#gestalt'

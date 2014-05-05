@@ -1,6 +1,0 @@
----
-title: Perception
-layout: page
----
-
-perception

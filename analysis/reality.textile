@@ -4,4 +4,4 @@ layout: video
 video: ZGldKC3vpKc
 ---
 
-Description...
+As mentioned in the video, you can "read Craig Owens' article &ldquo;The quest for Shadow of the Colossus' last big secret&rdquo; on Eurogamer.net":http://www.eurogamer.net/articles/2013-05-02-the-quest-for-shadow-of-the-colossuss-last-big-secret.

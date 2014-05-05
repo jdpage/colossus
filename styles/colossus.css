@@ -153,6 +153,15 @@ main p {
   margin: 0 auto;
 }
 
+main img {
+  max-width: 20em;
+  float: right;
+  margin-left: .5em;
+  margin-right: -5em;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
 main .video {
   margin: 0 auto;
   text-align: center;

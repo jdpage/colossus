@@ -1,6 +1,0 @@
----
-title: Motive
-layout: page
----
-
-motive
