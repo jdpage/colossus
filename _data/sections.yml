@@ -19,11 +19,11 @@
 - title: Construction
   slug: construction
   pages:
-    - title: Creating the Space
+    - title: Space
       slug: '#space'
-    - title: The Player in the Space
+    - title: Player
       slug: '#player'
-    - title: Action in the Space
+    - title: Action
       slug: '#action'
-    - title: The Game Gestalt
+    - title: Gestalt
       slug: '#gestalt'
