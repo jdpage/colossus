@@ -153,7 +153,24 @@ main p {
   margin: 0 auto;
 }
 
-main img {
+main .iblock {
+  text-indent: 0;
+}
+
+main .iblock .caption {
+  font-size: 80%;
+  font-style: italic;
+  float: right;
+  display: inline-block;
+  max-width: 20em;
+  text-align: right;
+}
+
+main .iblock .caption cite {
+  font-style: normal;
+}
+
+main .iblock img {
   max-width: 20em;
   float: right;
   margin-left: .5em;
