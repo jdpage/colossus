@@ -1,4 +1,4 @@
-h1. colossus
+h1. In the Colossus' Shadow
 
 Project to analyze the rhetoric of Shadow of the Colossus
 
