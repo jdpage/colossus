@@ -1,8 +1,0 @@
----
-title: Examining the Rhetoric of Team ICO's <cite>Shadow of the Colossus</cite>
-layout: page
----
-
-Welcome to ??In the Colossus' Shadow??, an Intensive Game Study (IGS) which takes a look at the award-winning game ??Shadow of the Colossus??. If you're not familiar with the game, we've compiled "a series of introductory videos":/description, allowing you to orient yourself with respect to the game even if you've never played it. Otherwise, you can head directly over to our "analysis videos":/analysis, which examine some of the rhetorical techniques used in the game. Finally, we have "an article deconstructing the game":/construction, which attempts to highlight the elements which make the game behave as an attention-getting trap.
-
-Got any questions? Further observations? Remarks? Feel free to contact us using the links in the footer.

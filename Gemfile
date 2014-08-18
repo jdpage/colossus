@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'github-pages'
+gem 'rawler'
+gem 'rake'
+gem 'rake-jekyll'
