@@ -5,6 +5,6 @@ layout: page
 
 In this section, we start analyzing the use of rhetorical techniques in ??Shadow of the Colossus??. We make heavy use of Richard Lanham's "Substance / Style Matrix", as presented in his book "??The Economics of Attention??":http://www.press.uchicago.edu/ucp/books/book/chicago/E/bo3680280.html. We start by looking at the Signal and Perceiver spectra on the matrix in the "first analysis video":/analysis/signal-perceiver.html.
 
-If you're not familiar with the game, you may want to "watch the first three videos":/description, which present a brief overview of the game.
+If you're not familiar with the game, you may want to "watch the first three videos":/description/, which present a brief overview of the game.
 
-There's also an "article deconstructing the game":/construction, which discusses what makes the game function as an attention-getting trap, and what another game would have to do to engage the audience in a similar way.
+There's also an "article deconstructing the game":/construction/, which discusses what makes the game function as an attention-getting trap, and what another game would have to do to engage the audience in a similar way.

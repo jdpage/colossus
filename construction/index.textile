@@ -3,7 +3,7 @@ title: Constructing an Attention-Getting Trap
 layout: page
 ---
 
-The final part of this IGS project is an “instruction manual” for the construction of attention-getting traps in the same style as ??Shadow of the Colossus??. If you have not yet seen the analysis videos, "you may want to review them before continuing":/analysis. ??Shadow of the Colossus?? is, in a similar fashion to a ‘cult film’, a kind of ‘cult game’, with a relatively small but dedicated following. Despite having a relatively small following, it is continually viewed as an essential part of modern video-game canon, and thus has also captured the attention of a much wider audience, leading to those who in the video game industry who have not played the game to know and admire the game for its merits. We have looked at how it does this. How would one replicate its effect?
+The final part of this IGS project is an “instruction manual” for the construction of attention-getting traps in the same style as ??Shadow of the Colossus??. If you have not yet seen the analysis videos, "you may want to review them before continuing":/analysis/. ??Shadow of the Colossus?? is, in a similar fashion to a ‘cult film’, a kind of ‘cult game’, with a relatively small but dedicated following. Despite having a relatively small following, it is continually viewed as an essential part of modern video-game canon, and thus has also captured the attention of a much wider audience, leading to those who in the video game industry who have not played the game to know and admire the game for its merits. We have looked at how it does this. How would one replicate its effect?
 
 h3(#space). Creating the Space
 

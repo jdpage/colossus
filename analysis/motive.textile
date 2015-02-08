@@ -6,6 +6,6 @@ video: TGczg83FqTw
 
 This is part five of the IGS(Intensive Game Study) on ??Shadow of the Colossus??.
 
-If you're not familiar with the game, or want a recap, consider watching "parts one through three":/description.
+If you're not familiar with the game, or want a recap, consider watching "parts one through three":/description/.
 
 Otherwise, continue on to "part six":/analysis/reality.html, or head back to "part four":/analysis/signal-perceiver.html.

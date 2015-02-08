@@ -2,16 +2,16 @@
 <html>
 <head>
   <meta charset='{{ site.encoding }}' />
-  <link rel='stylesheet' href='{{ site.baseurl }}styles/colossus.css' />
+  <link rel='stylesheet' href='{{ site.baseurl }}/styles/colossus.css' />
   <title>{{ site.data.info.title }} | {{ page.title | strip_html }}</title>
 </head>
 <body>
   <header>
-    <h1><a href='{{ site.baseurl }}'>{{ site.data.info.title }}</a></h1>
+    <h1><a href='{{ site.baseurl }}/'>{{ site.data.info.title }}</a></h1>
     <nav>
       <ol>
         {% for section in site.data.sections %}<li
-        ><a href='{{ site.baseurl }}{{ section.slug }}/'>{{ section.title }}</a></li
+        ><a href='{{ site.baseurl }}/{{ section.slug }}/'>{{ section.title }}</a></li
         >{% endfor %}
       </ol>
     </nav>
@@ -30,10 +30,10 @@
           <ol>
             {% for section in site.data.sections %}
             <li>
-              <h3><a href='{{ site.baseurl }}{{ section.slug }}/'>{{ section.title }}</a></h3>
+              <h3><a href='{{ site.baseurl }}/{{ section.slug }}/'>{{ section.title }}</a></h3>
               <ol>
                 {% for page in section.pages %}
-                <li><a href='{{ site.baseurl }}{{ section.slug }}/{{ page.slug }}{% unless page.slug contains "#" %}.html{% endunless %}'>{{ page.title }}</a></li>
+                <li><a href='{{ site.baseurl }}/{{ section.slug }}/{{ page.slug }}{% unless page.slug contains "#" %}.html{% endunless %}'>{{ page.title }}</a></li>
                 {% endfor %}
               </ol>
             </li>

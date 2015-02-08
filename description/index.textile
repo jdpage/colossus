@@ -5,4 +5,4 @@ layout: page
 
 If you've never played ??Shadow of the Colossus??, this is the best place to begin. We've made a series of videos which will orient you with respect to the game. "The first one":/description/introduction.html starts from the basics and proceeds from there.
 
-If you're already familiar with the game, and don't want a refresher, you can "jump ahead to the analysis":/analysis.
+If you're already familiar with the game, and don't want a refresher, you can "jump ahead to the analysis":/analysis/.
