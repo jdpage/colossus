@@ -1,5 +1,7 @@
 h1. In the Colossus' Shadow
 
+!https://travis-ci.org/jdpage/colossus.svg!:https://travis-ci.org/jdpage/colossus
+
 Project to analyze the rhetoric of Shadow of the Colossus
 
 See http://colossus.sleepingcyb.org/
