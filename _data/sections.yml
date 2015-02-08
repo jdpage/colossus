@@ -1,0 +1,29 @@
+- title: Description
+  slug: description
+  pages:
+    - title: Introduction
+      slug: introduction
+    - title: Gameplay
+      slug: gameplay
+    - title: Narrative
+      slug: narrative
+- title: Analysis
+  slug: analysis
+  pages:
+    - title: 'Signal & Perceiver'
+      slug: signal-perceiver
+    - title: Motive
+      slug: motive
+    - title: Reality
+      slug: reality
+- title: Construction
+  slug: construction
+  pages:
+    - title: Space
+      slug: '#space'
+    - title: Player
+      slug: '#player'
+    - title: Action
+      slug: '#action'
+    - title: Gestalt
+      slug: '#gestalt'

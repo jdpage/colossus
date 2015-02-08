@@ -1,0 +1,12 @@
+---
+title: Narrative
+layout: video
+video: xPaa29fA2Po
+---
+
+This is part three of the IGS(Intensive Game Study) on ??Shadow of the Colossus??.
+
+This concludes our orientation series. Next up is the analysis in
+"parts four through six":/analysis.
+
+Otherwise, you can head back to "part two":/description/gameplay.html or "start over":/description/introduction.html.
