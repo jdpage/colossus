@@ -1,5 +1,7 @@
 language: ruby
 rvm:
-  - "2.1.5"
-# uncomment this line if your project needs to run something other than `rake`:
+- 1.9.3
+branches:
+  only:
+  - develop
 script: bundle exec rake
