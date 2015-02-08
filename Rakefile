@@ -4,7 +4,7 @@ task :check_links do
     pid = fork do
         exec 'jekyll serve'
     end
-    sleep 10
+    sleep 3
 
     ok = true
     begin
